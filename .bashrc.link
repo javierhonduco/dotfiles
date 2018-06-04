@@ -1,0 +1,18 @@
+bgkill() {
+  bg -p | xargs kill -9
+}
+
+ccrun() {
+  sh ~/dotfiles/scripts/ccrun.sh "$@"
+}
+
+alias ls='ls --color'
+alias ll='ls -lah'
+
+export EDITOR=vim
+export HISTCONTROL=ignoredups
+export PS1="[\u@\h \W][\$?]\$ "
+export PYTHONSTARTUP=~/.pythonrc
+
+set -o noclobber
+shopt -s autocd

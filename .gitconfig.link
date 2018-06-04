@@ -1,0 +1,6 @@
+[user]
+	email = javierhonduco@gmail.com
+	name = Javier Honduvilla Coto
+
+[alias]
+  l = log --graph --oneline
