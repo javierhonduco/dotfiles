@@ -16,11 +16,13 @@ filetype on
 filetype indent on
 filetype plugin on
 
-set t_Co=256
-set background=dark
-let g:solarized_termcolors=256
-colorscheme solarized
-"set guifont=Menlo\ 12
+" Solarized theme
+if filereadable(expand("$HOME/.vim/colors/solarized.vim"))
+  set t_Co=256
+  set background=dark
+  let g:solarized_termcolors=256
+  colorscheme solarized
+endif
 
 set ignorecase
 set smartcase
