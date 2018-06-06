@@ -11,13 +11,15 @@ set hlsearch
 "hi cursorlinenr ctermfg=red
 
 " More
-"syntax enable
+syntax enable
 filetype on
 filetype indent on
 filetype plugin on
 
 set t_Co=256
-"set background=dark
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 "set guifont=Menlo\ 12
 
 set ignorecase
