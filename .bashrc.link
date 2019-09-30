@@ -16,3 +16,7 @@ export PYTHONSTARTUP=~/.pythonrc
 
 set -o noclobber
 shopt -s autocd
+
+# Fb related stuff
+alias ds='mosh devvm1640.cln1.facebook.com'
+alias ds2='mosh devvm424.lla2.facebook.com'
